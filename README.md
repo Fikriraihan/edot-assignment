@@ -9,7 +9,7 @@ A modern, responsive company profile web application built with Next.js, TypeScr
 
 ## 🛠️ Tech Stack
 
-- Next.js 15 (App Router)
+- Next.js 16 (App Router)
 - TypeScript
 - Tailwind CSS
 - Framer Motion
