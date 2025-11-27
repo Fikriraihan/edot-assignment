@@ -4,12 +4,12 @@ A modern, responsive company profile web application built with Next.js, TypeScr
 
 ## 🚀 Live Demo
 
-- **Live Site**: [Your Vercel URL]
-- **Repository**: [Your GitHub URL]
+- **Live Site**: https://edot-assignment.vercel.app/
+- **Repository**: https://github.com/Fikriraihan/edot-assignment
 
 ## 🛠️ Tech Stack
 
-- Next.js 16 (App Router)
+- Next.js 15 (App Router)
 - TypeScript
 - Tailwind CSS
 - Framer Motion
@@ -47,17 +47,6 @@ lib/              # Utilities
 types/            # TypeScript types
 ```
 
-## 📋 Assignment Requirements
-
-All requirements completed:
-
-- ✅ Single page with 2 sections (Company + Products)
-- ✅ Responsive design (mobile, tablet, desktop)
-- ✅ API integration for products and images
-- ✅ Grid layout: 2 cols (mobile), 3 cols (tablet), 5 cols (desktop)
-- ✅ Product displays: ID, name, and image
-- ✅ Image preview modal
-
 ## 🎨 Key Features
 
 ### Hero Section
@@ -72,11 +61,6 @@ All requirements completed:
 - Staggered entrance animations
 - Hover effects with image zoom
 - Modal preview on click
-
-## 📦 APIs Used
-
-- Products: `https://www.giovankov.com/api/product.json`
-- Images: `https://www.giovankov.com/api/image.json`
 
 ## 🚢 Deployment
 
