@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Company Profile - eDOT
 
-## Getting Started
+A modern, responsive company profile web application built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Live Demo
+
+- **Live Site**: [Your Vercel URL]
+- **Repository**: [Your GitHub URL]
+
+## 🛠️ Tech Stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- TanStack Query (React Query)
+- shadcn/ui
+
+## ✨ Features
+
+- ✅ Responsive design (Mobile: 2 cols, Tablet: 3 cols, Desktop: 5 cols)
+- ✅ Company description with parallax effect
+- ✅ Dynamic product grid from API
+- ✅ Image preview modal
+- ✅ Smooth animations and transitions
+- ✅ Type-safe with TypeScript
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/              # Next.js app router
+components/ui/    # UI components
+features/         # Feature modules (Hero, Product, Footer)
+lib/              # Utilities
+types/            # TypeScript types
+```
 
-## Learn More
+## 📋 Assignment Requirements
 
-To learn more about Next.js, take a look at the following resources:
+All requirements completed:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ Single page with 2 sections (Company + Products)
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ API integration for products and images
+- ✅ Grid layout: 2 cols (mobile), 3 cols (tablet), 5 cols (desktop)
+- ✅ Product displays: ID, name, and image
+- ✅ Image preview modal
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Key Features
 
-## Deploy on Vercel
+### Hero Section
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Parallax scrolling effect
+- Animated company description
+- Full-viewport design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Products Section
+
+- Fetches from provided APIs
+- Staggered entrance animations
+- Hover effects with image zoom
+- Modal preview on click
+
+## 📦 APIs Used
+
+- Products: `https://www.giovankov.com/api/product.json`
+- Images: `https://www.giovankov.com/api/image.json`
+
+## 🚢 Deployment
+
+Deployed on Vercel. Push to GitHub and connect to Vercel for automatic deployment.
+
+---
+
+Created for educational purposes as part of a coding assignment.
